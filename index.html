@@ -29,43 +29,42 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                        <a class="nav-link" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            My Work
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#road">Road</a>
+                            <a class="dropdown-item" href="#lone">Lone Tree</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#mountain">Mountain Side</a>
+                        </div>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
     </header>
 
     <main class="body-color">
         <!--Jumbotron-->
-        <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
-                to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <div class="row">
+            <div class="jumbotron">
+                <h1 class="display-4">Emmanuel Uagbale</h1>
+                <p class="lead">Take a look into my world</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.
+                </p>
+                <div class="col-md 8">
+                    <img src="" alt="">
+                </div>
+            </div>
         </div>
-
         <!--Work section-->
         <div class="container-fluid">
             <h2>My Work</h2>
@@ -73,35 +72,35 @@
             <div class="row my-5">
 
                 <div class="col-md-4">
-                    <div class="card" style="width: 25rem;">
+                    <div class="card" style="width: 1fr;">
                         <img src="./images/work one image.jpg" height="400px" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Road</h5>
+                            <h5 id="road" class="card-title">Road</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="https://www.google.es/" target="_blank" class="btn btn-primary">Take me there</a>
+                            <a href="https://www.google.es/" target="_blank" class="btn btn-primary">Enter</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-md-4">
+                    <div class="card" style="width: 1fr;">
                         <img src="./images/work two image.jpg" height="400px" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Lone Tree</h5>
+                            <h5 id="lone" class="card-title">Lone Tree</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="https://www.google.es/" target="_blank" class="btn btn-primary">Take me there</a>
+                            <a href="https://www.google.es/" target="_blank" class="btn btn-primary">Enter</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-md-4">
+                    <div class="card" style="width: 1fr;">
                         <img src="./images/work three image.jpg" height="400px" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Mountain Side</h5>
+                            <h5 id="mountain" class="card-title">Mountain Side</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="https://www.google.es/" target="_blank" class="btn btn-primary">Take me there</a>
+                            <a href="https://www.google.es/" target="_blank" class="btn btn-primary">Enter</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +113,7 @@
         <div class="container-fluid mt-5">
             <div class="row">
                 <div class="col-lg-8 justify-content-start">
-                    <h2>About me</h2>
+                    <h2 id="about">About me</h2>
                     <hr class="my-2">
 
                     <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, in
@@ -136,7 +135,7 @@
                     dolorem neque?
                 </div>
                 <div class="col-lg-4">
-                    <h2>Contact</h2>
+                    <h2 id="contact">Contact</h2>
                     <hr class="my-2">
                     <div class="container-fluid">
                         <div class="text-center">
