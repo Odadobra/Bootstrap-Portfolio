@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Emmanuel O. Uagbale</title>
 </head>
 
@@ -17,7 +17,8 @@
     <header>
         <!--Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <img src="./images/White and Black Simple Photography Initials Logo.png" width="60" height="60" alt="">
+            <a class="navbar-brand" href="#portfolio">PortFolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,20 +52,23 @@
         </nav>
     </header>
 
-    <main class="body-color">
+    <main id="portfolio">
         <!--Jumbotron-->
-        <div class="row">
-            <div class="jumbotron">
-                <h1 class="display-4">Emmanuel Uagbale</h1>
-                <p class="lead">Take a look into my world</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.
-                </p>
-                <div class="col-md 8">
-                    <img src="" alt="">
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="row">
+                <div class="col-7">
+                    <h1 class="display-4">Emmanuel Uagbale</h1>
+                    <p class="lead">Take a look into my world</p>
+                    <hr class="my-4">
                 </div>
+                <div class="col-5 d-none d-sm-block">
+                    <img src="./images/IMG-20220930-WA0006 (1).jpg" height="400" width="320" alt="">
+                </div>
+
             </div>
         </div>
+
         <!--Work section-->
         <div class="container-fluid">
             <h2>My Work</h2>
@@ -76,8 +80,7 @@
                         <img src="./images/work one image.jpg" height="400px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 id="road" class="card-title">Road</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Picture of a long road</p>
                             <a href="https://www.google.es/" target="_blank" class="btn btn-primary">Enter</a>
                         </div>
                     </div>
@@ -87,8 +90,7 @@
                         <img src="./images/work two image.jpg" height="400px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 id="lone" class="card-title">Lone Tree</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Tree with a lovely landscape</p>
                             <a href="https://www.google.es/" target="_blank" class="btn btn-primary">Enter</a>
                         </div>
                     </div>
@@ -98,8 +100,7 @@
                         <img src="./images/work three image.jpg" height="400px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 id="mountain" class="card-title">Mountain Side</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Awesome mountain images</p>
                             <a href="https://www.google.es/" target="_blank" class="btn btn-primary">Enter</a>
                         </div>
                     </div>
@@ -108,7 +109,81 @@
             </div>
         </div>
         <!--Skills Section-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            HTML
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            CSS
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            JAVASCRIPT
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            PYTHON
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            JAVA
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            REACT
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            NODE.JS
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            BOOTSTRAP
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            ES6
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-1 mb-2">
+                    <div class="card skill-card" style="width:7rem">
+                        <div class="card-body">
+                            EMMET
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </div>
         <!--About/Contact section-->
         <div class="container-fluid mt-5">
             <div class="row">
@@ -182,7 +257,7 @@
         </div>
 
         <!-- Copyright -->
-        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center text-white p-3" style="background-color:#1b1b1b;">
             © 2020 Copyright:
             <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
         </div>

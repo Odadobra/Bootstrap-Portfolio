@@ -1,3 +1,11 @@
-.body-color {
-    background: cadetblue;
+body {
+    background-color: #cac9c6;
+}
+
+.jumbotron {
+    background-color: #D9963C;
+}
+
+.skill-card {
+    background-color: #A09484;
 }
