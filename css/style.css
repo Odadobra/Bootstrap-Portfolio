@@ -1,11 +1,21 @@
+.navbar {
+    background-color: #444647;
+    background: transparent;
+
+}
+
 body {
     background-color: #cac9c6;
 }
 
 .jumbotron {
-    background-color: #D9963C;
+    background-color: #444647;
 }
 
 .skill-card {
     background-color: #A09484;
+}
+
+.btn {
+    box-shadow: 0px 5px 10px 0px rgb(0, 0, 0, 0.5);
 }
